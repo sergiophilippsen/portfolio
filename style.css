@@ -3,15 +3,12 @@
     --text-color: #837E9F;
     --bg-cards: #302F3D;
     --bg-techs: #CB92B1;
-  }
+    }
   body {
    /* background-color: var(--body-bg-color);*/
     margin-left: 2%;
     margin-top: 2%;
   }
-  
-  
-
   .main {
     display: grid;
     box-sizing: border-box;
@@ -33,7 +30,7 @@
         border: solid 2px var(--bg-cards);
         width: 20vw;
         height: 37vh;
-        background-color: var(--bg-cards);
+        background-color: var(--text-color);
         border-radius: 20px;
         box-sizing: border-box;
         }
@@ -54,97 +51,221 @@
         }
         .profile p {
             text-align: center;
-            margin-bottom: 60%;
+            margin-bottom: 90%;
         }
     .links {
         grid-area: lin;
         border: solid 2px var(--bg-cards);
         width: 20vw;
         height: 40vh;
-        background-color: var(--bg-cards);
+        /*background-color: var(--bg-cards);*/
+        background-color: var(--text-color);
         border-radius: 20px;
-        
+    }
+
+    .links p {
+        display: inline;
+        margin-left: 5%;
+        margin-top: 2%;
+    }
+
+    .links img {
+        margin-left: 8%;
+        margin-top: 3%;
     }
 
     .icones {
         display: flex;
         flex-direction: column;
-}
+    }
 
     .icones img {
         right: 25px;
         width: 25px;
-        margin-left: 20px;
+        margin-left: 30px;
+        margin-bottom: 10px;
+        margin-top: 40;
     }
-    
-    
+    .icones .displayInline {
+        display: inline;
+        margin-left: 30%;
+        margin-top: 1%;
+        }
     .tecnologia {
         box-sizing: border-box;
         grid-area: tec;
         border: solid 2px var(--bg-cards);
         width: 20vw;
         height: 30vh;
-        background-color: var(--bg-cards);
+        /*background-color: var(--bg-cards);*/
+        background-color: var(--text-color);
         border-radius: 20px;
-        }
-        .tecnologia p {
-            margin-left: 5%;
-            margin-top: 5%;
-
-        }
+    }
     .experiencias {
         grid-area: ex;
         border: solid 2px var(--bg-cards);
         width: 20vw;
         height: 40vh;
-        background-color: var(--bg-cards);
+        /*background-color: var(--bg-cards);*/
+        background-color: var(--text-color);
         border-radius: 20px;
-    }
+        }
+        .experiencias h2 {
+            margin-left: 10%;
+            margin-top: 8%;
+
+        }
     .educação {
         grid-area: edu;
         border: solid 2px var(--bg-cards);
         width: 20vw;
         height: 40vh;
-        background-color: var(--bg-cards);
+        /*background-color: var(--bg-cards);*/
+        background-color: var(--text-color);
         border-radius: 20px;
+     }
+     .educação h2 {
+        margin-left: 10%;
+        margin-top: 8%;
+        }
+     .educação li {
+       
+        margin-left: 5%;
+        margin-bottom: 0%;
      }
     .projetos {
         grid-area: proj;
         border: solid 2px var(--bg-cards);
         width: 72vw;
         height: 10vh;
-        background-color: var(--bg-cards);
+        /*background-color: var(--bg-cards);*/
+        background-color: var(--text-color);
         border-radius: 20px;
+        display: flex;
+        align-items: center;
+        
+    }
+    .projetos h2 {
+        margin-left: 3%;
+        display: inline;
+    }
+    .projetos p {
+        
+       margin-left: 70%;
+       display: inline;
+       
     }
     .projeto1 {
         grid-area: proj1;
         border: solid 2px var(--bg-cards);
         width: 35vw;
         height: 20vh;
-        background-color: var(--bg-cards);
+        /*background-color: var(--bg-cards);*/
+        background-color: var(--text-color);
         border-radius: 20px;
     }
+    .projeto1 img {
+        margin-top: 2%;
+        margin-left: 3%;
+    }
+    
+   .projeto1 .img2 {
+    margin-left: 3%;
+    }
+
+    .displayInline {
+       display: inline;
+       margin-left: 1%;
+       margin-top: 0%;
+       }
+       .displayInline1 {
+        display: inline;
+        margin-left:1% ;
+        margin-top: 5%;
+       }
+       .displayInline2 {
+        display: inline;
+        margin-left:1% ;
+       }
+       
+    
+    
+    
     .projeto2 {
         grid-area: proj2;
         border: solid 2px var(--bg-cards);
         width: 35vw;
         height: 20vh;
-        background-color: var(--bg-cards);
+        /*background-color: var(--bg-cards);*/
+        background-color: var(--text-color);
         border-radius: 20px;
     }
+    .projeto2 img {
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    
+   .projeto2 .img2 {
+    margin-left: 3%;
+    }
+
+    .displayInline {
+       display: inline;
+       margin-left: 1%;
+       margin-top: 0%;
+       }
+       .displayInline1 {
+        display: inline;
+        margin-left:1% ;
+        margin-top: 5%;
+       }
+       .displayInline2 {
+        display: inline;
+        margin-left:1% ;
+       }
+       
+    
     .recentpost {
         grid-area: rec;
         border: solid 2px var(--bg-cards);
         width: 72vw;
         height: 10vh;
-        background-color: var(--bg-cards);
+        /*background-color: var(--bg-cards);*/
+        background-color: var(--text-color);
         border-radius: 20px;
+    }
+    .recentpost h2 {
+        margin-left: 3%;
+        margin-top: 2%; 
+        
     }
     .post {
         grid-area: post;
         border: solid 2px var(--bg-cards);
         width: 72vw;
         height: 25vh;
-        background-color: var(--bg-cards);
+        /*background-color: var(--bg-cards);*/
+        background-color: var(--text-color);
         border-radius: 20px;
+       
     }
+    .post img {
+        margin-top: 2%;
+        margin-left: 2%;
+        
+        border-radius: 50%;
+        width: 12%;
+        height: 60%;
+    }
+    .post h4 {
+        display: inline;
+        margin-left: 10%;
+        margin-top: 2%;
+    }
+    .post p {
+        display: inline;
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+
+    
